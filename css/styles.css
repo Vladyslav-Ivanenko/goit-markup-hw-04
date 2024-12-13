@@ -315,7 +315,8 @@ address {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-team .list-item:hover .social-link {
+.social-link:hover,
+.social-link:focus {
   background-color: #404bbf;
 }
 
